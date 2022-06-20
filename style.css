@@ -21,7 +21,7 @@ body{
 }
 
 .heading-container h2{
-    color: #4D4C7D;
+    color: #363062;
 }
 
 .heading-container > *{
@@ -53,6 +53,7 @@ input[type="password"]{
     font-family: inherit;
     font-size: 0.75rem;
     font-weight: 600;
+    caret-color: #363062;
 }
 
 .form-link{
@@ -82,10 +83,15 @@ input[type="password"]{
     width: 100%;
     padding: 0.625rem 0;
     border: none;
-    background-color: #4D4C7D;
+    background-color: #363062;
     color: #fff;
     font-family: inherit;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background-color: #4D4C7D;
 }
